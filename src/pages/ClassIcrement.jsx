@@ -38,7 +38,7 @@ class ClassIncrement extends Component {
         </span>
         {
           error ? 
-          <div style={{ color: 'red' }}> pengurangan tidak bisa kurang dari 0 </div>
+          <div style={{ color: 'red' }}> pengurangan tidak boleh minus </div>
           :
           null
         }
